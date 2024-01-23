@@ -13,6 +13,7 @@ The Number Subtraction Game is a simple Python program that engages users in a g
 - `tests/`: Includes test scripts for unit testing (`test_number_subtraction_game.py`).
 - `README.md`: Provides information about the project, including installation and usage instructions.
 - `.gitignore`: Ignores unnecessary files and directories for version control.
+- `install_and_clone.sh` : Its for Termux(Fdroid) users 
 - `magic.py`: Contains the main Python script same as `number_subtraction_game.py`.
 - `magicbash.py`: Contains the main `bash script` same as `python script` `number_subtraction_game.py`
   
