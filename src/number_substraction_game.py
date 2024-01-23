@@ -13,4 +13,4 @@ while True:
 right = 9 - int(left)
 
 # Display the subtraction result without checking order
-print(f"Your subtraction number is {right}{left}.")
+print(f"Your subtraction number is {left}{right}.")
