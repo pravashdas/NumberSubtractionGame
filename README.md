@@ -14,6 +14,7 @@ The Number Subtraction Game is a simple Python program that engages users in a g
 - `README.md`: Provides information about the project, including installation and usage instructions.
 - `.gitignore`: Ignores unnecessary files and directories for version control.
 - `magic.py`: Contains the main Python script same as `number_subtraction_game.py`.
+- `magicbash.py`: Contains the main `bash script` same as `python script` `number_subtraction_game.py`
   
 ## How to Play
 1. Clone the repository to your local machine.
