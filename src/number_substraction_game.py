@@ -12,9 +12,5 @@ while True:
 # Calculate the right-hand side digit
 right = 9 - int(left)
 
-# Display the subtraction result with the larger digit first
-print("Your subtraction number is ", end="")
-if int(left) > right:
-    print(f"{left}{right}.")
-else:
-    print(f"{right}{left}.")
+# Display the subtraction result without checking order
+print(f"Your subtraction number is {right}{left}.")
