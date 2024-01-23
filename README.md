@@ -6,7 +6,7 @@ The Number Subtraction Game is a simple Python program that engages users in a g
 ## Features
 - User input validation for a single-digit left-hand side digit.
 - Dynamic calculation of the right-hand side digit.
-- Display of the subtraction result with the larger digit first.
+- Display of the subtraction result with the Total digits. 
 
 ## Project Structure
 - `src/`: Contains the main Python script (`number_subtraction_game.py`).
