@@ -18,7 +18,7 @@ The Number Subtraction Game is a simple Python program that engages users in a g
 ## How to Play
 1. Clone the repository to your local machine.
 2. Change Directory to  `NumberSubtractionGame` by using the command `cd NumberSubtractionGame`.
-3. Run the `python magic.py` script using a Python interpreter.
+3. Run the `python number_subtraction_game.py` or `python magic.py` on the root folder of git repo script using a Python interpreter.
 4. Follow the prompts to play the Number Subtraction Game.
 
 ## Contributing
