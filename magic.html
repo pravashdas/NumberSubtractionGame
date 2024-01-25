@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #output {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+    <title>Number Game</title>
+</head>
+<body>
+
+    <h1>Number Game</h1>
+
+    <div id="instructions">
+        <p>Imagine a 2-digit number which is not divisible by 11.</p>
+        <p>Flip that number and subtract from greater to smaller.</p>
+    </div>
+
+    <div id="inputSection">
+        <label for="leftDigit">Give me the left-hand side digit:</label>
+        <input type="text" id="leftDigit">
+        <button onclick="calculateResult()">Submit</button>
+    </div>
+
+    <div id="output">
+        <!-- Result will be displayed here -->
+    </div>
+
+    <script>
+        function calculateResult() {
+            var leftDigit = document.getElementById("leftDigit").value;
+
+            if (!isNaN(leftDigit) && leftDigit >= 0 && leftDigit <= 9) {
+                var rightDigit = 9 - parseInt(leftDigit);
+                var result = "Your subtraction number is " + leftDigit + rightDigit + " .";
+                document.getElementById("output").innerText = result;
+            } else {
+                alert("Invalid input. Please enter a single digit.");
+            }
+        }
+    </script>
+
+</body>
+</html>
