@@ -23,6 +23,6 @@ if [[ $left =~ ^[0-9]$ ]]; then
     right=$((9 - left))
     echo "#                                           Your subtraction number is ${left}${right}.                            #"
 else
-    echo "#                                           Invalid input. Please enter a single digit.                            #"
+    echo "#                                           Invalid input. Please enter a single digit..                                 #"
 fi
 echo "########################################################################################################################"
